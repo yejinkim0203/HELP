@@ -62,8 +62,7 @@ public class HomeMain {
 //		detailPanel.setBounds(520, 100, 450, 480);
 
 		detailPanel.setLayout(new BorderLayout());
-		detailPanel.setBackground(Color.BLUE);
-		//detailPanel.add(new HomeDetail());
+		detailPanel.add(new HomeDetail());
 		
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setBounds(65, 200, 400, 350);
@@ -71,10 +70,10 @@ public class HomeMain {
 		
 //		JPanel detailPanel = new JPanel();
 //		detailPanel.setBounds(520, 100, 450, 480);
-		frame.getContentPane().add(detailPanel);
+//		frame.getContentPane().add(detailPanel);
 		
 		JScrollPane scrollPane1 = new JScrollPane();
-		scrollPane.setBounds(520, 100, 450, 480);
+		scrollPane1.setBounds(520, 100, 450, 480);
 		scrollPane1.setViewportView(detailPanel);
 		frame.getContentPane().add(scrollPane1);
 		
